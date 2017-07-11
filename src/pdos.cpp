@@ -1,9 +1,9 @@
 //============================================================================
 // Name        : pdos.cpp
 // Author      : Wassim Kassem
-// Version     : 0.1
+// Version     : 0.01
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Calculate the phonon density of states from a LAMMPS dump file
 //============================================================================
 
 #include <iostream>

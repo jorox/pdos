@@ -10,6 +10,8 @@
 #include <cstdlib>
 #include <string>
 #include <fstream>
+#include "LmpDumpFileInfo.h"
+
 using namespace std;
 
 int main(int argc, char* argv[]) {
@@ -34,7 +36,8 @@ int main(int argc, char* argv[]) {
 	}
 	cout << " " << numOfLines << " lines " << endl;
 
-
+	LmpDumpFileInfo lmpFileInfo(fname);
+	cout << lmpFileInfo.toString() << endl;
 
 	return 0;
 }
